@@ -1,0 +1,5 @@
+QTableView
+{
+	color: balck;
+	background-color: black;
+}

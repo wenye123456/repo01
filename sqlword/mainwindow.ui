@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionopentable"/>
+    <addaction name="actionclosetable"/>
+    <addaction name="actionmarktotabel"/>
+    <addaction name="actionsetting"/>
+    <addaction name="actionclose"/>
+   </widget>
+   <widget class="QMenu" name="menutool">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>排列</string>
+     </property>
+     <addaction name="actionrefresh"/>
+     <addaction name="separator"/>
+     <addaction name="actionsortbytime"/>
+     <addaction name="actionshowmark"/>
+    </widget>
+    <addaction name="actionadd"/>
+    <addaction name="actionremove"/>
+    <addaction name="actionedit"/>
+    <addaction name="actionsearch"/>
+    <addaction name="separator"/>
+    <addaction name="menu"/>
+    <addaction name="actionrandom"/>
+   </widget>
+   <widget class="QMenu" name="menustyle">
+    <property name="title">
+     <string>风格</string>
+    </property>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menutool"/>
+   <addaction name="menustyle"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionclose">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionadd">
+   <property name="text">
+    <string>添加</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionopentable">
+   <property name="text">
+    <string>打开表</string>
+   </property>
+  </action>
+  <action name="actionremove">
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </action>
+  <action name="actionedit">
+   <property name="text">
+    <string>修改</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionsearch">
+   <property name="text">
+    <string>搜索</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionrandom">
+   <property name="text">
+    <string>随机</string>
+   </property>
+  </action>
+  <action name="actionsortbytime">
+   <property name="text">
+    <string>时间</string>
+   </property>
+  </action>
+  <action name="actionrefresh">
+   <property name="text">
+    <string>恢复</string>
+   </property>
+  </action>
+  <action name="actionclosetable">
+   <property name="text">
+    <string>删除表</string>
+   </property>
+  </action>
+  <action name="actionshowmark">
+   <property name="text">
+    <string>收藏</string>
+   </property>
+  </action>
+  <action name="actionmarktotabel">
+   <property name="text">
+    <string>收藏转化为新表</string>
+   </property>
+  </action>
+  <action name="actionsetting">
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

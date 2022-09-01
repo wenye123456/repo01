@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>qss/ExcelOffice.qss</file>
+        <file>qss/Aqua.qss</file>
+        <file>qss/AMOLED.qss</file>
+        <file>qss/Combinear.qss</file>
+        <file>qss/ConsoleStyle.qss</file>
+        <file>qss/DeepBox.qss</file>
+        <file>qss/Diffnes.qss</file>
+        <file>qss/ElegantDark.qss</file>
+        <file>qss/exam.qss</file>
+        <file>qss/gray.qss</file>
+        <file>qss/Integrid.qss</file>
+        <file>qss/License.txt</file>
+        <file>qss/MacOS.qss</file>
+        <file>qss/ManjaroMix.qss</file>
+        <file>qss/MaterialDark.qss</file>
+        <file>qss/NeonButtons.qss</file>
+        <file>qss/sea_and_sunset.qss</file>
+        <file>qss/tableview.qss</file>
+        <file>qss/Ubuntu.qss</file>
+    </qresource>
+</RCC>
